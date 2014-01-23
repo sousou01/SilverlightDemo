@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IUserService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:41274/UserService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IUserService" contract="UserService.IUserService"
+                name="BasicHttpBinding_IUserService" />
+        </client>
+    </system.serviceModel>
+</configuration>

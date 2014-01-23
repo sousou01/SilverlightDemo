@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightNavigDemo", "SilverlightNavigDemo\SilverlightNavigDemo.csproj", "{26DC8CC8-4586-4B87-BCC4-1FFB27C5666F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C08AAB7-7866-478A-8FF2-B6102594A7D0} = {8C08AAB7-7866-478A-8FF2-B6102594A7D0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightNavigDemo.Web", "SilverlightNavigDemo.Web\SilverlightNavigDemo.Web.csproj", "{28C423A3-F2BE-42FA-9565-CB4518120F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightNavigDemo.Service.Client", "SilverlightNavigDemo.Service.Client\SilverlightNavigDemo.Service.Client.csproj", "{E5DE4C81-4C2C-455F-AE4A-CEAC91A2EE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightNavigDemo.Service", "SilverlightNavigDemo.Service\SilverlightNavigDemo.Service.csproj", "{8C08AAB7-7866-478A-8FF2-B6102594A7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightDemo.Data", "SilverlightDemo.Data\SilverlightDemo.Data.csproj", "{539059EF-76B1-4774-8952-5B8D65D91FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26DC8CC8-4586-4B87-BCC4-1FFB27C5666F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DC8CC8-4586-4B87-BCC4-1FFB27C5666F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DC8CC8-4586-4B87-BCC4-1FFB27C5666F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DC8CC8-4586-4B87-BCC4-1FFB27C5666F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C423A3-F2BE-42FA-9565-CB4518120F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C423A3-F2BE-42FA-9565-CB4518120F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C423A3-F2BE-42FA-9565-CB4518120F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C423A3-F2BE-42FA-9565-CB4518120F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DE4C81-4C2C-455F-AE4A-CEAC91A2EE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DE4C81-4C2C-455F-AE4A-CEAC91A2EE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DE4C81-4C2C-455F-AE4A-CEAC91A2EE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DE4C81-4C2C-455F-AE4A-CEAC91A2EE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C08AAB7-7866-478A-8FF2-B6102594A7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08AAB7-7866-478A-8FF2-B6102594A7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08AAB7-7866-478A-8FF2-B6102594A7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08AAB7-7866-478A-8FF2-B6102594A7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539059EF-76B1-4774-8952-5B8D65D91FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539059EF-76B1-4774-8952-5B8D65D91FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539059EF-76B1-4774-8952-5B8D65D91FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539059EF-76B1-4774-8952-5B8D65D91FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
