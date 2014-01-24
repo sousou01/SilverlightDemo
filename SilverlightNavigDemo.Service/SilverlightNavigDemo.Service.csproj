@@ -73,6 +73,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\UsersDb.sdf" />
+    <Content Include="clientaccesspolicy.xml" />
+    <Content Include="crossdomain.xml" />
     <Content Include="UserService.svc" />
     <Content Include="Web.config" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
